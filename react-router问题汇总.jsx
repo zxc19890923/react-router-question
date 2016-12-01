@@ -28,3 +28,6 @@ hashHistory.push("/contact");
   可以绑定自定义事件
   onEnter={this.enter.bind(this)}
   onLeave={this.leave.bind(this)}
+
+5. 路由中包含了没有用到的组件也会报错  import {Link, History} from "react-router"
+如果没有用到Historyconsole里面也会报错
