@@ -14,3 +14,10 @@ import {IndexRouter} from "react-router";
 
 <IndexRouter component={Init} />
 这样就设定了默认首界面/显示的内容
+
+3. 路由之间的跳转, 按钮绑定事件， 事件中书写如下代码
+hashHistory.push("/contact");
+这是：import {hashHistory} from react-router
+
+如果是： import {browserHisory} from "react-router"
+那么就是： browserHistory.push("/contact");
