@@ -21,3 +21,10 @@ hashHistory.push("/contact");
 
 如果是： import {browserHisory} from "react-router"
 那么就是： browserHistory.push("/contact");
+
+
+4. 路由的进入和离开事件
+  onEnter   onLeave
+  可以绑定自定义事件
+  onEnter={this.enter.bind(this)}
+  onLeave={this.leave.bind(this)}
